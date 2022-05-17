@@ -1,117 +1,151 @@
 @import url('https://fonts.googleapis.com/css2?family=Gowun+Batang&display=swap');
 
-.App-Cover{
+.App-Cover {
   /* background-image: url("\milky-way.jpg"); */
   /* background-color: rgb(0, 112, 192); */
   /* background-color: rgb(102, 96, 158); */
   background-size: cover;
-  
+
   /* 남청색 */
-  background-color: rgb(0,49,83);
+  background-color: rgb(0, 49, 83);
   min-height: 100vh;
   min-width: 100vw;
 }
 
-.App-Nav{
+.App-Nav {
   background: rgba(255, 255, 255, 0.1);
-  width:100vw;
-  height: 1vh; 
+  width: 100vw;
+  height: 1vh;
   display: flex;
   color: white;
 }
 
 /* Indicator */
-.Indicator{
-  width:100vw; 
-  height: 95vh; 
-  display: flex; 
-  align-items: center; 
+.Indicator {
+  width: 100vw;
+  height: 90vh;
+  display: flex;
+  align-items: center;
   justify-content: center;
 }
 
-.Indicator-Border{
+.Indicator-Border {
   /* border-left: 3px solid rgba(255, 255, 255, 1);
   border-right: 3px solid rgba(255, 255, 255, 1); */
   /* opacity: 0.75; */
-  border-collapse : collapse;
-  border-left: 3px solid rgba(255,223,0, 1);
-  border-right: 3px solid rgba(255,223,0, 1);
+  height: 50vh;
+  max-height: 50vh;
+  border-collapse: collapse;
+
+  border-left: 0.3vw solid rgba(255, 223, 0, 1);
+  border-right: 0.3vw solid rgba(255, 223, 0, 1);
+
   border-top: none;
   border-bottom: none;
   table-layout: fixed;
+
 }
 
-.Indicator-Content-Line{
+.Indicator-Content-Line {
   /* Size */
-  width: 25px;
-  height: 25px;
-  min-width: 25px;
-  min-height: 25px;
+  width: 1.5vw;
+  height: 2.5vh;
+
+  max-width: 2.0vw;
+  max-height: 25vh;
+
+  min-width: 1.5vw;
+  min-height: 25vh;
+
   /* Align */
   text-align: center;
   /* Font */
-  font-size: calc(10px + 2vmin);
-  font-weight:100;
+  font-size: calc(5px + 2vmin);
+  font-weight: 100;
   font-family: 'Gowun Batang', serif;
   /* Style */
   color: white;
-  
-  border-top: 2px solid rgba(255,223,0, 1);
-  border-bottom: 2px solid rgba(255,223,0, 1);
+
+  border-top: 0.3vh solid rgba(255, 223, 0, 1);
+  border-bottom: 0.3vh solid rgba(255, 223, 0, 1);
   /* border: 3px solid rgba(255, 255, 255, 0.75); */
 }
 
-.Indicator-Blank-Line{
-  width:  1.25vw;
+.Indicator-Blank-Line {
+  width: 1.25vw;
   height: 2.5vh;
-  min-width: 15px;
-  min-height: 25px;
+
+  max-width: 2.0vw;
+  max-height: 25vh;
+
+  min-width: 1.5vw;
+  min-height: 25vh;
+
   text-align: center;
   font-size: calc(10px + 2vmin);
-  font-weight:bold;
+  font-weight: bold;
   color: white;
-  
+
   /* Border Style */
-  border-left: 2px solid rgba(255,223,0, 1);
-  border-right: 2px solid rgba(255,223,0, 1);
+  border-left: 0.3vh solid rgba(255, 223, 0, 1);
+  border-right: 0.3vh solid rgba(255, 223, 0, 1);
+
   border-top: none;
   border-bottom: none;
 }
 
-.Indicator-Last-Line{
+.Indicator-Last-Line {
   border-top: none;
   border-bottom: none;
-}
 
-.Indicator-Date-Line{
-  width:  1.25vw;
+  border-left: 0.3vh solid rgba(255, 223, 0, 1);
+  border-right: 0.3vh solid rgba(255, 223, 0, 1);
+
+  /* width: 1.25vw;
   height: 2.5vh;
-  min-width: 15px;
-  min-height: 25px;
+
+  max-width: 2vw;
+  max-height: 25vh; */
+}
+
+.Indicator-Date-Line {
+  width: 1.25vw;
+  height: 2.5vh;
+
+  max-width: 3vw;
+  max-height: 25vh;
+
+  min-width: 1.5vw;
+  min-height: 25vh;
+
+  /* padding-left: 0.4vw; */
+  /* padding-right: 0.4vw; */
+
   text-align: center;
-  font-size: calc(10px + 2vmin);
-  font-weight:bold;
+  font-size: calc(5px + 2vmin);
+  font-weight: bold;
   vertical-align: top;
   color: white;
   /* Border Style */
-  border-left: 2px solid rgba(255,223,0, 1);
-  border-right: 2px solid rgba(255,223,0, 1);
+  border-left: 0.3vh solid rgba(255, 223, 0, 1);
+  border-right: 0.3vh solid rgba(255, 223, 0, 1);
+
   border-top: none;
   border-bottom: none;
 }
 
-.Indicator-Date{
+.Indicator-Date {
   writing-mode: vertical-rl;
   text-orientation: upright;
   /* margin-top: 2.95vh; */
   font-size: calc(0px + 2vmin);
-  font-weight:100;
+  font-weight: 100;
   font-family: 'Gaegu';
 }
 
-.Indicator-Option{
-  border: none; 
-  background: rgb(0,49,83);
+.Indicator-Option {
+  border: none;
+  background: rgb(0, 49, 83);
   color: white;
   margin: 15px;
 }
