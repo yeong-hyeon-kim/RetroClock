@@ -2,6 +2,8 @@
 
 한글로 시간을 표시하는 한글 시계
 
+[PreViewImage](./img/PreView.PNG)
+
 <hr>
 
 ### 로직
