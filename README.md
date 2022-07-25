@@ -24,7 +24,7 @@
 
 * ✔ OS : ![Windows](https://img.shields.io/badge/Windows-0078D6?style=flat-square&logo=Windows&logoColor=white)
   * 🕒 Version : `11 Pro`
-* ✔ Language : ![C#](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=JavaScript&logoColor=black)
+* ✔ Language : ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=JavaScript&logoColor=black)
 * ✔ Dependency : ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=React&logoColor=black)
   * [package.json](./package.json)
 
