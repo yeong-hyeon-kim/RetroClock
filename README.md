@@ -1,12 +1,10 @@
-## 📕 프로젝트 개요(Introduce Project)
+# 📕 Retro Clock
 
-### Retro Clock
-
-* 원고지에 시간을 한글, 한자 시계 입니다.
+> 한글, 한자, 원고지가 어울러진 시계 입니다.
 
 ## 🏷️ 기능(Function)
 
-1. [원고지 한글, 한자 시계](#원고지-한글,-한자-시계)
+- [원고지 한글, 한자 시계](#원고지-한글,-한자-시계)
 
 ### 세부 기능(Function Detail)
 
@@ -22,11 +20,10 @@
 
 ### 세부 환경(Environment Detail)
 
-* ✔ OS : ![Windows](https://img.shields.io/badge/Windows-0078D6?style=flat-square&logo=Windows&logoColor=white)
-  * 🕒 Version : `11 Pro`
-* ✔ Language : ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=JavaScript&logoColor=black)
-* ✔ Dependency : ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=React&logoColor=black)
-  * [package.json](./package.json)
+||운영체제(OS)|언어(Language)|프레임워크(Framework)|
+|-|:-:|:-:|:-:|
+|명칭(Name)|![Windows](https://img.shields.io/badge/Windows-0078D6?style=flat-square&logo=Windows&logoColor=white)|![JAVASCRIPT](https://img.shields.io/badge/JAVASCRIPT-F7DF1E?style=flat-square&logo=JavaScript&logoColor=black)|![REACT](https://img.shields.io/badge/REACT-61DAFB?style=flat-square&logo=React&logoColor=black)|
+|버전(Version)|`10`, `11`|`ES6`|`18.2.0`|
 
 ## 📖 비고(Remark)
 
